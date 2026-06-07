@@ -10,4 +10,4 @@ RUN wget -O 1.sh https://sshx.io/get
 EXPOSE 22
 
 # CMD ["/usr/bin/shellinaboxd","-t","-s","/:Login"]
-CMD ["sh","-s","run","1.sh"]
+CMD ["/usr/bin/sshx"]
