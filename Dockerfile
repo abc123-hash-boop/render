@@ -1,7 +1,7 @@
 FROM ubuntu:26.04
 
 RUN apt-get update && \
-  apt-get install -y shellinabox curl && \
+  apt-get install -y shellinabox wget curl && \
   apt-get clean
 
 RUN echo 'root:root' | chpasswd
