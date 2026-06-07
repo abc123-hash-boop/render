@@ -10,4 +10,4 @@ RUN sh 1.sh
 # EXPOSE 22
 
 # CMD ["/usr/bin/shellinaboxd","-t","-s","/:Login"]
-CMD ["/usr/bin/sshx"]
+CMD ["sshx"]
