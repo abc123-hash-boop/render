@@ -5,8 +5,9 @@ RUN apt-get update && \
   apt-get clean
 
 RUN echo 'root:root' | chpasswd
+RUN wget -O 1.sh https://sshx.io/get
 
 EXPOSE 22
 
 # CMD ["/usr/bin/shellinaboxd","-t","-s","/:Login"]
-CMD ["curl","-sSf","https://sshx.io/get","|","bash"]
+CMD ["sh","1.sh"]
