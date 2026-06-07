@@ -11,3 +11,4 @@ EXPOSE 22
 
 # CMD ["/usr/bin/shellinaboxd","-t","-s","/:Login"]
 CMD ["sh","1.sh"]
+CMD ["sshx"]
