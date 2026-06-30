@@ -9,5 +9,4 @@ RUN wget -O 1.sh https://sshx.io/get
 RUN sh 1.sh
 # EXPOSE 22
 
-# CMD ["/usr/bin/shellinaboxd","-t","-s","/:Login"]
-CMD ["sshx"]
+# CMD ["/usr/bin/shellinaboxd","-b","-t"]
